@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Spark Activity Summary Dashboard">
+    <title>Spark Activity Summary</title>
+    <link rel="stylesheet" href="spark.css">
+</head>
+<body>
+    <header>
+        <h1>Spark Activity Summary</h1>
+    </header>
+
+    <!-- Dashboard Container -->
+    <main class="dashboard">
+        <!-- Header Section -->
+        <section class="dashboard-header">
+            <div>
+                <label for="date-range">Auto Date Range:</label>
+                <br>
+                <input type="date" id="date-range">
+            </div>
+        </section>
+
+        <!-- Top Metrics Section -->
+        <section class="top-metrics">
+            <article class="metric">
+                <span class="metric-icon">👤</span>
+                <div class="metric-text">
+                    <p>Total no of users</p>
+                    <span>500 <small>+10%</small></span>
+                </div>
+            </article>
+            <article class="metric">
+                <span class="metric-icon">📊</span>
+                <div class="metric-text">
+                    <p>Total no of modes</p>
+                    <span>40 <small>+12%</small></span>
+                </div>
+            </article>
+            <article class="metric">
+                <span class="metric-icon">⏱</span>
+                <div class="metric-text">
+                    <p>Total no of duration</p>
+                    <span>130 <small>-15%</small></span>
+                </div>
+            </article>
+            <article class="metric">
+                <span class="metric-icon">📋</span>
+                <div class="metric-text">
+                    <p>Total task ID count</p>
+                    <span>100 <small>+3%</small></span>
+                </div>
+            </article>
+            <article class="metric">
+                <span class="metric-icon">📂</span>
+                <div class="metric-text">
+                    <p>Total run ID count</p>
+                    <span>200 <small>-13%</small></span>
+                </div>
+            </article>
+        </section>
+
+        <!-- Main Content Section -->
+        <section class="main-content">
+            <!-- Left Content -->
+            <div class="left-content">
+                <!-- Calc Section -->
+                <section class="calc-section">
+                    <h2>Calc</h2>
+                    <div class="calc-charts">
+                        <img src="E:\coding\PROJECTS AND LIFTOFF\PROJECTS\INTERNSHIP\Screenshot 2024-12-03 125921.png" alt="Average Duration Chart" width="50" height="200">
+                        <img src="E:\coding\PROJECTS AND LIFTOFF\PROJECTS\INTERNSHIP\Screenshot 2024-12-03 125927.png" alt="Calc Duration Chart" width="50" height="200">
+                        <img src="E:\coding\PROJECTS AND LIFTOFF\PROJECTS\INTERNSHIP\Screenshot 2024-12-03 125932.png" alt="Calc Count Chart" width="50" height="200">
+                    </div>
+                </section>
+
+                <!-- Report Calc Count Section -->
+                <section class="report-section">
+                    <h2>Report Calc Count</h2>
+                    <img src="E:\coding\PROJECTS AND LIFTOFF\PROJECTS\INTERNSHIP\Screenshot 2024-12-03 130120.png" alt="Report Calc Count Chart">
+                </section>
+            </div>
+
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <!-- Activities Section -->
+                <section class="activities">
+                    <h2>Activities</h2>
+                    <ul class="activity-list">
+                        <li class="activity-item">
+                            <span class="activity-icon">⏰</span>
+                            <div class="activity-text">
+                                <p>Last Login Time</p>
+                                <span>12h ago</span>
+                            </div>
+                        </li>
+                        <li class="activity-item">
+                            <span class="activity-icon">🔑</span>
+                            <div class="activity-text">
+                                <p>Total Login Count</p>
+                                <span>45</span>
+                            </div>
+                        </li>
+                        <li class="activity-item">
+                            <span class="activity-icon">📈</span>
+                            <div class="activity-text">
+                                <p>Overall Activity Count</p>
+                                <span>93%</span>
+                            </div>
+                        </li>
+                        <li class="activity-item">
+                            <span class="activity-icon">🖩</span>
+                            <div class="activity-text">
+                                <p>Total Calc Count</p>
+                                <span>56</span>
+                            </div>
+                        </li>
+                        <li class="activity-item">
+                            <span class="activity-icon">👁</span>
+                            <div class="activity-text">
+                                <p>Total Report View</p>
+                                <span>55</span>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- Run ID Status Section -->
+                <section class="run-id-status">
+                    <h2>Run ID Status</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Run ID</th>
+                                <th>Status</th>
+                                <th>View</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>2024_1103_ANC00126_980b858d</td>
+                                <td><span class="status-completed">Completed</span></td>
+                                <td><button>View</button></td>
+                            </tr>
+                            <tr>
+                                <td>2024_1105_ANC00126_980b858d</td>
+                                <td><span class="status-pending">Pending</span></td>
+                                <td><button>View</button></td>
+                            </tr>
+                            <tr>
+                                <td>2024_1103_ANC00126_980b858d</td>
+                                <td><span class="status-completed">Completed</span></td>
+                                <td><button>View</button></td>
+                            </tr>
+                            <tr>
+                                <td>2024_1103_ANC00126_980b858d</td>
+                                <td><span class="status-pending">Pending</span></td>
+                                <td><button>View</button></td>
+                            </tr>
+                            <tr>
+                                <td>2024_1103_ANC00126_980b858d</td>
+                                <td><span class="status-completed">Completed</span></td>
+                                <td><button>View</button></td>
+                            </tr>
+                            <tr>
+                                <td>2024_1103_ANC00126_980b858d</td>
+                                <td><span class="status-pending">Pending</span></td>
+                                <td><button>View</button></td>
+                            </tr>
+                            <tr>
+                                <td>2024_1103_ANC00126_980b858d</td>
+                                <td><span class="status-completed">Completed</span></td>
+                                <td><button>View</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </aside>
+        </section>
+    </main>
+</body>
+</html>
