@@ -15,7 +15,7 @@ This is a web-based dashboard designed to visualize and summarize activity data.
 [https://github.com/your-username/spark-activity-dashboard.git](https://github.com/vansh070605/DASHBOARD)
 
 
-2. Open `index.html` in your browser to view the dashboard.
+2. Open `spark.html` in your browser to view the dashboard.
 
 ## Usage
 
