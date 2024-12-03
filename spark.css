@@ -190,3 +190,7 @@
 .status-pending {
     color: red;
 }
+.calc-section div, .report-section div {
+    height: 400px; /* Set a fixed height for Highcharts containers */
+    margin-bottom: 20px;
+}
