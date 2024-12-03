@@ -1,0 +1,192 @@
+/* General Layout */
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    font-family: Arial, sans-serif;
+    gap: 1.5rem;
+}
+
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.date-range {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Top Metrics */
+.top-metrics {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.metric {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.metric-icon {
+    font-size: 2rem;
+}
+
+.metric-text p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.metric-text span {
+    color: green;
+    font-weight: bold;
+}
+
+/* Main Content */
+.main-content {
+    display: flex;
+    flex-direction: row;  /* Align content in a row */
+    gap: 1.5rem;
+    align-items: flex-start;
+}
+
+/* Left Content */
+.left-content {
+    flex: 3;
+}
+
+.calc-section, .report-section {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.calc-section img {
+    width: 20%;
+    margin-top: 1px;
+    border: 2px solid #ddd; /* Border added */
+    border-radius: 8px; /* Optional: rounded corners for the border */
+    padding: 80px;
+}
+
+.report-section img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Sidebar */
+.sidebar {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-top: 0;
+}
+
+.activities {
+    margin-top: 0; /* No space above */
+    padding: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.calc-section img {
+    width: 20%;
+    margin-top: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+.activities h2 {
+    margin-bottom: 1rem;
+}
+
+.activity-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.activity-item {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 1rem;
+    background: #fff;
+    margin-bottom: 0.5rem;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.activity-text {
+    font-size: 1rem;
+}
+
+.activities {
+    margin-bottom: 1.5rem;
+}
+
+.top-metrics {
+    display: flex;
+    gap: 10px; /* Reduced gap between metrics */
+    margin-bottom: 10px; /* Reduced space between metrics and other sections */
+}
+
+.sidebar .activities {
+    margin-top: -10px; /* Moves the activities tab higher */
+}
+
+
+.activities, .run-id-status {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.activities ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.activity-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.activity-icon {
+    font-size: 1.5rem;
+}
+
+.run-id-status table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.run-id-status th, .run-id-status td {
+    padding: 0.5rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.status-completed {
+    color: green;
+}
+
+.status-pending {
+    color: red;
+}
